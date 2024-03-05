@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container"> 
+            <div class="navbar">
+                <div class="logo">
+                    <a href="INDEX.html"><img src="files/veritas logo.png" width="150px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuContents">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="allproducts1.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                        <li><a href="sizing.html">Sizing</a></li>
+                    </ul>
+                </nav>
+                <a href="addtocart.html"><img src="files/shopping-bag.png" width="30px" height="30px"></a>
+                <img src="files/pngwing.com (43).png" class="menu-button" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2-texts">
+                    <h1>Size Chart</h1>
+                    <br>
+                    <h2>OVERSIZE FIT</h2>
+                    <img src="files/Screenshot 2023-11-27 175928.png">
+                    <br>
+                    <br>
+                    <h2>HOODIE SIZE CHART</h2>
+                    <img src="files/hoodie size.png">
+                    <br>
+                    <br>
+                    <h2>SWEATPANTS SIZE CHART</h2>
+                    <img src="files/sweatpants size.png">
+                    <br>
+                    <br>
+                    <h2>MESH SHORTS SIZE CHART</h2>
+                    <img src="files/shorts size.png">
+                    
+                    
+                </div>
+                <div class="col-2">
+                    <img src="files/veritas logo.png">
+                </div>
+               </div>
+        </div>
+    </div>
+    
+
+
+   
+    <!---------footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>© 2023 Veritas Clothing Brand. All Rights Reserved.</h3>
+                    <p>Website and Products Created by Jahleel Ashter Espoltero</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="files/Veritas Logo white.png">
+                    <p>Where Style Meets Truth.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us!</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                </div>
+        </div>
+    </div>
+
+  <!---------javascript for toggle menu-->
+  <script>
+    var MenuContents = document.getElementById("MenuContents");
+
+    MenuContents.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuContents.style.maxHeight == "0px")
+        {
+            MenuContents.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuContents.style.maxHeight = "0px";
+        }
+    }
+  </script>
+    
+</body> 
+</html>
